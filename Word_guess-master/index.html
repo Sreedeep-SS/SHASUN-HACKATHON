@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Guess</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Piedra&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id='section1'>
+        <div class='header'>
+            <h1>Guess The Word !</h1>
+            <img src="./images/12.png">
+        </div>
+        <a href='#section2'><button id='start' onclick="start()">Play</button></a>
+        <div id='state'>
+            <p><b>Bored of being Lazy? Here you go with the knowledge and fun.</b></p>
+            <p><b>  Kick Start with the Guide and Go Ahead </b></p>
+
+            <div id='guide'>
+                <button id='inst'>The Guide!</button>
+            </div>
+        </div>
+
+        <div id='section2'>
+            <div id='score2'>
+                <p id='score'><b>Your lives:    <span id='score1'> 5  </span> </b></p>
+
+
+
+            </div>
+            <div>
+                <h2 id='time'>Time: <span id='sec'>30</span></h2>
+            </div>
+
+
+
+            <!-- <div id='instructions'></div> -->
+            <div id='clue'></div><br><br>
+            <div id='guess'></div><br><br><br>
+            <div id='cor'></div><br><br>
+
+            <button id='reset' onclick="reset()"> Skip</button>
+            <br><br><br>
+
+
+            <div id='keyboard'></div><br><br>
+
+        </div>
+
+
+        <script type="text/javascript" src="app.js"></script>
+
+</body>
+
+</html>

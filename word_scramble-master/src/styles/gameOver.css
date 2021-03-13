@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+*
+{
+    margin:0;
+    padding:0;
+}
+
+#results
+{
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    width:750px;
+    border:6px black solid;
+    border-radius: 20px;
+    margin-top: 40px;
+    text-align: center;
+    box-shadow: 7px 10px 9px rgba(80, 79, 79, 0.658);
+    background-color: rgba(190, 190, 186, 0.356);
+}
+
+#gameOver
+{
+    text-align: center;
+    background: url('./pexels-dids-1424495.jpg');
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+}
+
+#go
+{
+    font-size: 40px;
+    font-family: 'Audiowide', cursive;
+    margin-top: 30px;
+    color:rgb(250, 37, 72);
+    text-shadow: 1px 1px 3px black;
+}
+
+#scre
+{
+    margin-top: 20px;
+    font-size: 30px;
+    text-shadow: 1px 1px 3px rgb(51, 50, 50);
+}
+#wrdscr
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+#crtwrds,#msdwrds
+{
+    width: 250px;
+    height: 420px;
+    margin-top:40px ;
+    border: 2px solid black ;
+    border-radius: 12px ;
+    background-color: #f0b5a5c0;
+    margin-left: 30px;
+    stroke-opacity: initial;
+}
+
+
+::-webkit-scrollbar {
+    display: none;
+  }
+
+  #hr
+  {
+      overflow-y: scroll;
+      height:350px;
+      text-shadow: 0.5px 0.5px 3px rgba(255, 255, 255, 0.616);
+  }
+
+  #he
+  {
+      padding-top: 7px;
+      padding-bottom: 7px;
+      text-shadow: 1px 0.5px rgba(8, 8, 8, 0.616);
+
+
+  }
+
+  #mm
+  {
+      width:130px;
+      border:2px solid black;
+      border-radius: 8px;
+      height: 40px;
+      background-color: rgb(46, 255, 157);
+      box-shadow: 2px 2px 5px black ;
+      outline:none;
+      font-weight: bold;
+      font-size: 17px;
+    }
+
+  #cn
+  {
+      
+    border:2px solid black;
+    border-radius: 8px;
+      width: 120px;
+      height: 40px;
+      margin-left: 15px;
+      background-color: rgb(255, 199, 46);
+      box-shadow: 2px 2px 5px black ;
+      font-weight: bold;
+      font-size: 17px;
+      outline: none;
+  }
+
+  #mm:hover
+  {
+      transform: scale(1.05);
+  }
+  #cn:hover
+  {
+      transform: scale(1.05);
+  }
+  
